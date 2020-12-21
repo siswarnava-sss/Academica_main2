@@ -41,7 +41,7 @@
             android:ems="10"
             android:hint="@string/password"
             android:inputType="textPassword"
-            app:layout_constraintBottom_toBottomOf="@+id/button2"
+            app:layout_constraintBottom_toBottomOf="@+id/Admin_reg_btn"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -62,7 +62,7 @@
             app:layout_constraintVertical_bias="0.184" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/Admin_reg_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/register"
