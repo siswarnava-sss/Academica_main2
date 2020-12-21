@@ -24,16 +24,17 @@
             android:id="@+id/editTextTextPersonName2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="132dp"
             android:autofillHints=""
             android:ems="10"
             android:inputType="textPersonName"
             android:text="@string/name"
-            app:layout_constraintBottom_toBottomOf="@+id/button"
+            app:layout_constraintBottom_toBottomOf="@+id/student_reg_button"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintHorizontal_bias="0.505"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.216" />
+            app:layout_constraintVertical_bias="0.037" />
 
         <EditText
             android:id="@+id/editTextTextPassword2"
@@ -66,7 +67,7 @@
             app:layout_constraintVertical_bias="0.302" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/student_reg_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/register"
